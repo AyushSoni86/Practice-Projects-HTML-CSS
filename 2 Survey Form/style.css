@@ -4,13 +4,13 @@ body{
     font-family: verdana;
 }
 
-form{
+ form{
     background-color: rgba(255, 255, 255, 0.986);
     max-width: 500px;
     margin: 50px auto;
     padding: 20px;
     box-shadow: 2px 5px 10px black;
-}
+} 
 
 .form-control{
     text-align: left;
@@ -29,8 +29,8 @@ form{
     border-radius: 2px;
     font-family: inherit;
     padding: 10px;
-    display: block;
-    width: 95%;
+    display: block; 
+     width: 95%;
 }
 
 .form-control input[type = radio],
@@ -50,4 +50,10 @@ button{
     margin-top: 50px;
     margin-bottom: 20px;
     padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    transition: 0.3s ease-in-out;
+    background-color: rgb(70, 194, 152);
 }
